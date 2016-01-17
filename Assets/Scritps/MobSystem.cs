@@ -8,6 +8,8 @@ public class MobSystem : MonoBehaviour
 	
 	public int health = 2;
 	
+	public float speed = 5.0f;
+	
 	float timer;
 	
 	public float delayTime = 5.0f;
@@ -25,6 +27,8 @@ public class MobSystem : MonoBehaviour
 		mobInstance.transform.SetParent (transform);
 		
 		mobInstance.health = health;
+		
+		mobInstance.move_speed = speed;
 	}
 	
 	// Update is called once per frame

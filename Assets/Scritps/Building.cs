@@ -9,13 +9,13 @@ public class Building : MonoBehaviour
 	public float attack_damage;
 	public float attack_speed;
 	public float attack_distance;
-    public float resource_cost;
+	public float resource_cost;
 	public float last_attack_time = 0;
-    public bool construction;
-    public float construction_time = 0;
-    public SpriteRenderer sprite;           // holds the sprite object of under construction model
-    public Sprite sprite_built;
-    public Mob target;
+	public bool construction;
+	public float construction_time = 0;
+	public SpriteRenderer sprite;           // holds the sprite object of under construction model
+	public Sprite sprite_built;
+	public Mob target;
 	
 	public Bullet bullet_prefab;
 	
@@ -56,10 +56,10 @@ public class Building : MonoBehaviour
 
 	void onDie ()
 	{
-        GameObject.Destroy(gameObject);
+		GameObject.Destroy (gameObject);
 
-        // Change stats and sprite
-        construction_speed = 0;
+		// Change stats and sprite
+		construction_speed = 0;
 		attack_damage = 0;
 		attack_speed = 0;
 		attack_distance = 0;
@@ -81,17 +81,18 @@ public class Building : MonoBehaviour
 	
 	void Update ()
 	{
-        construction_time += 0.01f;
-        while (construction_time < construction_speed)
-        {
-            construction = false;
-        }
-        if (construction)
-        {
-            // change the sprite
-            sprite.sprite=sprite_built;
-            attack();
-        }
+		construction_time += 0.01f;
+		
+		//		attack ();
+		
+		while (construction_time < construction_speed) {
+			construction = false;
+		}
+		if (construction) {
+			// change the sprite
+			sprite.sprite = sprite_built;
+			attack ();
+		}
 	}
 	
 

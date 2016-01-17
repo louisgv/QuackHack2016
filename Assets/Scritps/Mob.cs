@@ -24,6 +24,8 @@ public class Mob : MonoBehaviour
 	void Awake ()
 	{
 		goal = GameObject.FindGameObjectWithTag ("Goal");
+		tile_grid = GameObject.FindGameObjectWithTag ("TileGrid").GetComponent<TileGrid> ();
+		
 		m_animator = GetComponent<Animator> ();
 		m_mobSound = GetComponent<MobSound> ();
 	}
@@ -84,7 +86,14 @@ public class Mob : MonoBehaviour
 	void move ()
 	{
 		Tile current_tile = tile_grid.getContainingTile (transform.position);
-		Debug.Log (current_tile.road_direction.ToString () + " " + current_tile.x + " " + current_tile.y);
+		
+		//		Debug.Log (current_tile.road_direction.ToString () + " " + current_tile.x + " " + current_tile.y);
+		
+		if (current_tile == null) {
+			Destroy (gameObject);
+			return;
+		}
+		
 		transform.position += current_tile.road_direction * move_speed * Time.deltaTime;
 	}
 	

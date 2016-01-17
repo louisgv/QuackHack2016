@@ -14,10 +14,13 @@ public class MouseBehavior : MonoBehaviour
 	[SerializeField]
 	private Camera
 		world_camera;
-    [SerializeField]
-    private TileGrid tile_grid;
+	[SerializeField]
+	private TileGrid
+		tile_grid;
 
-	[SerializeField] private MoneyManager money_manager;
+	[SerializeField]
+	private MoneyManager
+		money_manager;
 
 	private Action click_behavior = doNothing;
 	private static void doNothing ()
@@ -39,11 +42,11 @@ public class MouseBehavior : MonoBehaviour
 	{
 		if (initialize_prefab == null)
 			initialize_prefab = (T t) => {};
-        Debug.Log("MOUSE WANTS TO SPAWN SOMETHING");
+		Debug.Log ("MOUSE WANTS TO SPAWN SOMETHING");
 		click_behavior = () =>
 		{
 			spawnOnClick (prefab, root, initialize_prefab);
-            Debug.Log("MOUSE SPAWNED SOMETHING");
+			Debug.Log ("MOUSE SPAWNED SOMETHING");
 		};
 	}
 	
@@ -51,38 +54,38 @@ public class MouseBehavior : MonoBehaviour
 	where T : Component
 	{
 		//find & validate spawn position
-        Vector3 mouse_position_unity = world_camera.ScreenToWorldPoint(Input.mousePosition);
-        mouse_position_unity = Vector3.Scale(mouse_position_unity, new Vector3(1.0f, 1.0f, 0.0f));
-        Tile tile_under_mouse = tile_grid.getContainingTile(mouse_position_unity);
-        if (   tile_under_mouse == null
-            || tile_under_mouse.terrain != eTerrain.open
-            || tile_under_mouse.occupant != null
-			|| !money_manager.AttemptPurchase(15)
-			){
-            Debug.Log("CAN'T SPAWN ACTOR OUTSIDE OF TILE GRID");
-            return;
-        }
+		Vector3 mouse_position_unity = world_camera.ScreenToWorldPoint (Input.mousePosition);
+		mouse_position_unity = Vector3.Scale (mouse_position_unity, new Vector3 (1.0f, 1.0f, 0.0f));
+		Tile tile_under_mouse = tile_grid.getContainingTile (mouse_position_unity);
+		if (tile_under_mouse == null
+			|| tile_under_mouse.terrain != eTerrain.open
+			|| tile_under_mouse.occupant != null
+			|| !money_manager.AttemptPurchase (15)
+			) {
+			Debug.Log ("CAN'T SPAWN ACTOR OUTSIDE OF TILE GRID");
+			return;
+		}
 
-        //create the actor
-        T spawned_actor = root.InstantiateChild<T>(prefab);
+		//create the actor
+		T spawned_actor = root.InstantiateChild<T> (prefab);
 
 
-        initialize_prefab(spawned_actor);
+		initialize_prefab (spawned_actor);
 
-        click_behavior = doNothing;
-        spawned_actor.transform.position = tile_under_mouse.transform.position;
+		click_behavior = doNothing;
+		spawned_actor.transform.position = tile_under_mouse.transform.position;
 
-        //DEBUG - if you're having problems, it might be because of the GetComponent in this line
+		//DEBUG - if you're having problems, it might be because of the GetComponent in this line
 
-		Debug.Log("SHOULD BE SECOND");
-
-        spawned_actor.transform.localScale = tile_grid.getScaleToFillTile(spawned_actor.gameObject.GetComponent<SpriteRenderer>()) * 0.8f ;
-
-        tile_under_mouse.occupant = spawned_actor.gameObject;
+		spawned_actor.transform.localScale = tile_grid.getScaleToFillTile (spawned_actor.gameObject.GetComponent<SpriteRenderer> ()) * 0.8f;
+		
+		Debug.Log (spawned_actor.transform.localScale.ToString ());
+		
+		tile_under_mouse.occupant = spawned_actor.gameObject;
 
 		spawned_actor.transform.SetParent (transform);
 
-        spawned_actor.gameObject.SetActive (true);
+		spawned_actor.gameObject.SetActive (true);
 	}
 	
 	void Update ()

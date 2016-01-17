@@ -7,22 +7,24 @@ public class Building : MonoBehaviour
 	public TowerData.TowerDefinition definition;
 
 	public float health;
-	public float construction_speed{get{return definition.construction_speed;}}
-	public float attack_damage{get{return definition.attack_damage;}}
-	public float attack_speed{get{return definition.attack_speed;}}
-	public float attack_distance{get{return definition.attack_distance;}}
-	public float resource_cost{get{return (float)definition.resource_cost;}}
-	public Sprite sprite_built{get{return definition.sprite_built;}}
-
+	
+	public float construction_speed{ get { return definition.construction_speed; } }
+	
+	public float attack_damage{ get { return definition.attack_damage; } }
+	
+	public float attack_speed{ get { return definition.attack_speed; } }
+	
+	public float attack_distance{ get { return definition.attack_distance; } }
+	
+	public float resource_cost{ get { return (float)definition.resource_cost; } }
+	
+	public Sprite sprite_built{ get { return definition.sprite_built; } }
 
 	public float last_attack_time = 0;
 	public bool construction;
 	public float construction_time;
 
-
-
 	public SpriteRenderer m_spriteRenderer;           // holds the sprite object of under construction model
-
 
 	public Mob target;
 	

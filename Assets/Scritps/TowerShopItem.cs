@@ -3,14 +3,15 @@ using UnityEngine.UI;
 using System.Collections;
 using System;
 
-public class TowerShopItem : MonoBehaviour {
+public class TowerShopItem : MonoBehaviour
+{
 	public float width;
 	public float height;
 
 	//data access
 	public TowerData.TowerDefinition definition;
-	public Sprite sprite_built{get{return definition.sprite_built;}}
-	public int cost{get{return definition.resource_cost;}}
+	public Sprite sprite_built{ get { return definition.sprite_built; } }
+	public int cost{ get { return definition.resource_cost; } }
 
 	//data users
 	public Image image;
@@ -20,7 +21,7 @@ public class TowerShopItem : MonoBehaviour {
 
 	public MouseBehavior mouse_behavior;
 
-	void Awake()
+	void Awake ()
 	{
 		image.sprite = sprite_built;
 
@@ -32,17 +33,15 @@ public class TowerShopItem : MonoBehaviour {
 		my_building_prefab.gameObject.SetActive (false);
 	}
 
-	void Start()
+	void Start ()
 	{
 		my_building_prefab.gameObject.SetActive (false);
 	}
 
-	public void SetMouseToInstantate()
+	public void SetMouseToInstantate ()
 	{
 		Action<Building> init = (Building b) => {
-			Debug.Log ("INSIDE DELEGATE");
 			b.definition = definition;
-			Debug.Log("SHOULD BE FIRST");
 			//b.gameObject.GetComponent<SpriteRenderer>().sprite = definition.sprite_built;
 		};
 

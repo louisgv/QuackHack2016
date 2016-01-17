@@ -9,7 +9,7 @@ public static class GameObjectExtensions
 		T ret = GameObject.Instantiate<T> (prefab);
 		if (!string.IsNullOrEmpty (name))
 			ret.gameObject.name = name;
-		ret.transform.parent = gameObject.transform;
+		ret.transform.SetParent (gameObject.transform);
 		ret.gameObject.layer = gameObject.layer;
 		return ret;
 	}

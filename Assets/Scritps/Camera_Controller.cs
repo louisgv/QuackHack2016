@@ -5,7 +5,7 @@ public class Camera_Controller : MonoBehaviour
 {
 	public float move_speed;
 	private Vector3 last_position;
-//	private Vector3 camera_position;
+	private Vector3 camera_position;
 	public Vector3 scene_limit_right;
 	public Vector3 scene_limit_left;
 	public Camera m_camera;
@@ -35,18 +35,18 @@ public class Camera_Controller : MonoBehaviour
 				m_camera.transform.Translate (Vector3.left * move_speed * change.x);
 			}
 
-			/*if (camera.transform.position.x >= scene_limit_right.x) {
+			if (GetComponent<Camera>().transform.position.x >= scene_limit_right.x) {
 				//allow movement left only
 				if (Input.mousePosition.x < camera_position.x) {
-					camera.transform.Translate (Vector3.left * move_speed * change.x);
+					GetComponent<Camera>().transform.Translate (Vector3.left * move_speed * change.x);
 				}
 			}
-			if (camera.transform.position.x <= scene_limit_left.x) {
+			if (GetComponent<Camera>().transform.position.x <= scene_limit_left.x) {
 				//allow movement right only
 				if (Input.mousePosition.x > camera_position.x) {
-					camera.transform.Translate (Vector3.left * move_speed * change.x);
+					GetComponent<Camera>().transform.Translate (Vector3.left * move_speed * change.x);
 				}
-			}*/
+			}
 			last_position = Input.mousePosition;
 		}
 

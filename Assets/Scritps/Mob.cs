@@ -10,7 +10,8 @@ public class Mob : MonoBehaviour
 	public float attack_distance;
 	public float last_attack_time = 0;
 	public Building target;
-	public GameObject goal;
+	public GameObject goal; //deprectaed?
+	private Vector3 goal_position;
 	public TileGrid tile_grid;
 
 	[SerializeField]
@@ -28,6 +29,7 @@ public class Mob : MonoBehaviour
 		
 		m_animator = GetComponent<Animator> ();
 		m_mobSound = GetComponent<MobSound> ();
+		goal_position = transform.position;
 	}
 	
 	void OnBecameVisible ()
@@ -82,19 +84,25 @@ public class Mob : MonoBehaviour
 			onDie ();
 		}
 	}
-
+		
 	void move ()
 	{
 		Tile current_tile = tile_grid.getContainingTile (transform.position);
-		
-		//		Debug.Log (current_tile.road_direction.ToString () + " " + current_tile.x + " " + current_tile.y);
-		
 		if (current_tile == null) {
 			Destroy (gameObject);
 			return;
 		}
 		
-		transform.position += current_tile.road_direction * move_speed * Time.deltaTime;
+		float move_distance = move_speed * Time.deltaTime;
+		float distance_to_goal = (goal_position - transform.position).magnitude;
+		if (move_distance > distance_to_goal) {
+			move_distance -= distance_to_goal;
+			transform.position = goal_position;
+			if (tile_grid.tile_height != tile_grid.tile_width)
+				throw new System.InvalidOperationException ("this code assumes that tiles are square");
+			goal_position = current_tile.transform.position + current_tile.road_direction * tile_grid.tile_height;
+		}
+		transform.position += (goal_position - transform.position).normalized * move_distance;
 	}
 	
 	// Update is called once per frame

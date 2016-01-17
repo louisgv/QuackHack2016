@@ -17,6 +17,8 @@ public class MouseBehavior : MonoBehaviour
     [SerializeField]
     private TileGrid tile_grid;
 
+	[SerializeField] private MoneyManager money_manager;
+
 	private Action click_behavior = doNothing;
 	private static void doNothing ()
 	{
@@ -54,8 +56,9 @@ public class MouseBehavior : MonoBehaviour
         Tile tile_under_mouse = tile_grid.getContainingTile(mouse_position_unity);
         if (   tile_under_mouse == null
             || tile_under_mouse.terrain != eTerrain.open
-            || tile_under_mouse.occupant != null)
-        {
+            || tile_under_mouse.occupant != null
+			|| !money_manager.AttemptPurchase(15)
+			){
             Debug.Log("CAN'T SPAWN ACTOR OUTSIDE OF TILE GRID");
             return;
         }

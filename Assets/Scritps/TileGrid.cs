@@ -27,8 +27,8 @@ public class TileGrid : MonoBehaviour {
     [SerializeField] private GameObject tile_root;
     
 	public Tile[,] tile_grid;
-	[SerializeField] private float tile_height;
-	[SerializeField] private float tile_width;
+	public float tile_height;
+	public float tile_width;
 
     private int width_tiles;
     private int height_tiles;

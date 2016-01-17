@@ -14,10 +14,12 @@ public class Building : MonoBehaviour
 	
 	public Bullet bullet_prefab;
 	
+	public BuildingSound m_buildingSound;
+	
 	// Use this for initialization
 	void Start ()
 	{
-		
+		m_buildingSound = GetComponent<BuildingSound> ();
 	}
 
 	void attack ()
@@ -30,7 +32,7 @@ public class Building : MonoBehaviour
 				target = attackable_target;
 				
 				if (last_attack_time + attack_speed < Time.time) {
-					
+					m_buildingSound.PlayAttackSound ();
 					// Instantiate a bullet, then assign the target to it.
 					Bullet bullet_instance = Instantiate (bullet_prefab) as Bullet;
 					
@@ -64,6 +66,7 @@ public class Building : MonoBehaviour
 		if (health > 0) {
 			health -= damage;
 		} else if (health <= 0) {
+			m_buildingSound.PlayDestructionSound ();
 			onDie ();
 		}
 

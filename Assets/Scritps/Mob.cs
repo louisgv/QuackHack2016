@@ -13,12 +13,15 @@ public class Mob : MonoBehaviour
 	public GameObject goal;
 
 	private Animator m_animator;
-
+	
+	private MobSound m_mobSound;
+	
 	// Use this for initialization
 	void Start ()
 	{
 		goal = GameObject.FindGameObjectWithTag ("Goal");
 		m_animator = GetComponent<Animator> ();
+		m_mobSound = GetComponent<MobSound> ();
 	}
 
 	void attack ()
@@ -31,7 +34,10 @@ public class Mob : MonoBehaviour
 			if (Vector3.Distance (attackable_target.transform.position, transform.position) < attack_distance) {
 				target = attackable_target;
 				if (last_attack_time + attack_speed < Time.time) {
+					m_mobSound.PlayAttack ();
+					
 					attackable_target.takeDamage (attack_damage);
+					
 					last_attack_time = Time.time;
 				}
 			}
@@ -53,6 +59,7 @@ public class Mob : MonoBehaviour
 		if (health > 0) {
 			health -= damage;
 		} else if (health <= 0) {
+			m_mobSound.PlayDeathSound ();
 			m_animator.SetBool ("IsDead", true);
 			onDie ();
 		}

@@ -24,7 +24,7 @@ public class Mob : MonoBehaviour
 	void Start ()
 	{
 		goal = GameObject.FindGameObjectWithTag ("Goal");
-		m_animator = GetComponent<Animator> ();
+        m_animator = GetComponent<Animator> ();
 		m_mobSound = GetComponent<MobSound> ();
 	}
 
@@ -71,12 +71,12 @@ public class Mob : MonoBehaviour
 
 	void move() {
         Tile current_tile = tile_grid.getContainingTile(transform.position);
+        Debug.Log(current_tile.road_direction.ToString() + " " + current_tile.x + " " + current_tile.y);
         transform.position += current_tile.road_direction * move_speed * Time.deltaTime;
 	}
 	// Update is called once per frame
 	void Update () {
         move ();
-
 		attack ();
 	}
 }

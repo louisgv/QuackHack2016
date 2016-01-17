@@ -11,6 +11,11 @@ public class Mob : MonoBehaviour
 	public float last_attack_time = 0;
 	public Building target;
 	public GameObject goal;
+	public TileGrid tile_grid;
+
+	[SerializeField]
+	private float
+		center_of_tile_tolerance;
 
 	private Animator m_animator;
 	
@@ -20,7 +25,7 @@ public class Mob : MonoBehaviour
 	{
 		goal = GameObject.FindGameObjectWithTag ("Goal");
 		m_animator = GetComponent<Animator> ();
-		m_mobSound = GetComponent<MobSound> ();	
+		m_mobSound = GetComponent<MobSound> ();
 	}
 	
 	void OnBecameVisible ()
@@ -78,7 +83,9 @@ public class Mob : MonoBehaviour
 
 	void move ()
 	{
-		transform.position = Vector3.MoveTowards (transform.position, goal.transform.position, move_speed * Time.deltaTime);
+		Tile current_tile = tile_grid.getContainingTile (transform.position);
+		Debug.Log (current_tile.road_direction.ToString () + " " + current_tile.x + " " + current_tile.y);
+		transform.position += current_tile.road_direction * move_speed * Time.deltaTime;
 	}
 	
 	// Update is called once per frame

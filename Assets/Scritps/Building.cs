@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Building : MonoBehaviour
 {
+
 	public float health;
 	public float construction_speed;
 	public float attack_damage;
@@ -36,7 +37,7 @@ public class Building : MonoBehaviour
 					bullet_instance.SetTarget (target.gameObject);
 					
 					bullet_instance.easeStyle = Bullet.EaseStyle.EXPONENTIAL;
-					
+		
 					attackable_target.takeDamage (attack_damage);
 					
 					last_attack_time = Time.time;
@@ -59,7 +60,7 @@ public class Building : MonoBehaviour
 	{
 		// Called when an NPC attacks
 		Debug.Log ("Building took damage");
-		
+
 		if (health > 0) {
 			health -= damage;
 		} else if (health <= 0) {
@@ -77,6 +78,7 @@ public class Building : MonoBehaviour
 	void FixedUpdate ()
 	{
 //		Debug.Log (health);
+
 	}
 
 }

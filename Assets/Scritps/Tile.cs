@@ -2,14 +2,9 @@
 using System.Collections;
 
 public class Tile : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+	public eTerrain terrain;
+	public Building occupant;
+    public SpriteRenderer sprite;
+    public int x;
+    public int y;
 }

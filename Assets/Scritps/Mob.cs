@@ -25,7 +25,7 @@ public class Mob : MonoBehaviour
 		// Detect if target is within range
 		Building[] attackableTargets = FindObjectsOfType (typeof(Building)) as Building[];
 		foreach (Building attackable_target in attackableTargets) {
-			//		Debug.Log (attackable_target);
+			//Debug.Log (attackable_target);
 			if (Vector3.Distance (target.transform.position, transform.position) < attack_distance) {
 				if (last_attack_time + attack_speed < Time.time) {
 					attackable_target.takeDamage (attack_damage);

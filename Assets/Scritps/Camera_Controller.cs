@@ -18,7 +18,7 @@ public class Camera_Controller : MonoBehaviour {
 	void Update () {
 		if (Input.GetMouseButtonDown (0)) {
 			last_position = Input.mousePosition;
-			Debug.Log ("last_position (mouse)");
+			//Debug.Log ("last_position (mouse)");
 			//Debug.Log (last_position);
 		}
 
@@ -27,7 +27,7 @@ public class Camera_Controller : MonoBehaviour {
 			//Debug.Log (camera_position);
 			Vector3 change = Input.mousePosition - last_position;
 			camera_position = camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, camera.nearClipPlane));
-			Debug.Log (camera_position);
+			//Debug.Log (camera_position);
 			if (camera.transform.position.x < scene_limit_right.x && camera.transform.position.x > scene_limit_left.x) {
 				camera.transform.Translate (Vector3.left * move_speed * change.x);
 			}

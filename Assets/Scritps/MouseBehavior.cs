@@ -6,14 +6,16 @@ using UnityEngine.UI;
 public class MouseBehavior : MonoBehaviour
 {
 	[SerializeField]
-	private SpriteRenderer
-		DEBUG_prefab;
+	private Building
+		prefab;
 	[SerializeField]
 	private GameObject
-		DEBUG_root;
+		root;
 	[SerializeField]
 	private Camera
 		world_camera;
+    [SerializeField]
+    private TileGrid tile_grid;
 
 	private Action click_behavior = doNothing;
 	private static void doNothing ()
@@ -22,12 +24,12 @@ public class MouseBehavior : MonoBehaviour
 
 	void Awake ()
 	{
-		DEBUG_prefab.gameObject.SetActive (false);
+		prefab.gameObject.SetActive (false);
 	}
 
 	public void setMouseToSpawnDotOnClick ()
 	{
-		setMouseToSpawnOnClick<SpriteRenderer> (DEBUG_prefab, DEBUG_root);
+		setMouseToSpawnOnClick<Building> (prefab, root);
 	}
 
 	public void setMouseToSpawnOnClick<T> (T prefab, GameObject root, Action<T> initialize_prefab = null)
@@ -35,29 +37,46 @@ public class MouseBehavior : MonoBehaviour
 	{
 		if (initialize_prefab == null)
 			initialize_prefab = (T t) => {};
+        Debug.Log("MOUSE WANTS TO SPAWN SOMETHING");
 		click_behavior = () =>
 		{
 			spawnOnClick (prefab, root, initialize_prefab);
+            Debug.Log("MOUSE SPAWNED SOMETHING");
 		};
 	}
 	
 	private void spawnOnClick<T> (T prefab, GameObject root, Action<T> initialize_prefab)
 	where T : Component
 	{
-		initialize_prefab (root.InstantiateChild<T> (prefab));
-		click_behavior = doNothing;
-		prefab.transform.position = world_camera.ScreenToWorldPoint (Input.mousePosition);
-		prefab.gameObject.SetActive (true);
-	}
-	
-	private bool mouseIsBlockedByUIElement ()
-	{
-		return UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject ();
+		//find & validate spawn position
+        Vector3 mouse_position_unity = world_camera.ScreenToWorldPoint(Input.mousePosition);
+        mouse_position_unity = Vector3.Scale(mouse_position_unity, new Vector3(1.0f, 1.0f, 0.0f));
+        Tile tile_under_mouse = tile_grid.getContainingTile(mouse_position_unity);
+        if (   tile_under_mouse == null
+            || tile_under_mouse.terrain != eTerrain.open
+            || tile_under_mouse.occupant != null)
+        {
+            Debug.Log("CAN'T SPAWN ACTOR OUTSIDE OF TILE GRID");
+            return;
+        }
+
+        //create the actor
+        T spawned_actor = root.InstantiateChild<T>(prefab);
+        initialize_prefab(spawned_actor);
+        click_behavior = doNothing;
+        spawned_actor.transform.position = tile_under_mouse.transform.position;
+
+        //DEBUG - if you're having problems, it might be because of the GetComponent in this line
+        spawned_actor.transform.localScale = tile_grid.getScaleToFillTile(spawned_actor.gameObject.GetComponent<SpriteRenderer>()) * 0.8f;
+
+        tile_under_mouse.occupant = spawned_actor.gameObject;
+
+        spawned_actor.gameObject.SetActive (true);
 	}
 	
 	void Update ()
 	{
-		if (Input.GetMouseButtonDown (0) && !mouseIsBlockedByUIElement ())
+		if (Input.GetMouseButtonDown (0))
 			click_behavior ();
 	}
 }

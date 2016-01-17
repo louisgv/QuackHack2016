@@ -10,6 +10,10 @@ public class Mob : MonoBehaviour {
 	public float last_attack_time = 0;
 	public Building target;
 	public GameObject goal;
+    public TileGrid tile_grid;
+
+    [SerializeField]
+    private float center_of_tile_tolerance;
 
 
 	// Use this for initialization
@@ -50,11 +54,12 @@ public class Mob : MonoBehaviour {
 	}
 
 	void move() {
-		transform.position = Vector3.MoveTowards (transform.position, goal.transform.position, move_speed * Time.deltaTime);
+        Tile current_tile = tile_grid.getContainingTile(transform.position);
+        transform.position += current_tile.road_direction * move_speed * Time.deltaTime;
 	}
 	// Update is called once per frame
 	void Update () {
-		move ();
+        move ();
 		attack ();
 	}
 }

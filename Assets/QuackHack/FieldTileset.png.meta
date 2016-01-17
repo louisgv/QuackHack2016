@@ -1,0 +1,2937 @@
+fileFormatVersion: 2
+guid: 4994134f299125d45bf2f69fc63ce896
+timeCreated: 1452988850
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FieldTileset_0
+    21300002: FieldTileset_1
+    21300004: FieldTileset_2
+    21300006: FieldTileset_3
+    21300008: FieldTileset_4
+    21300010: FieldTileset_5
+    21300012: FieldTileset_6
+    21300014: FieldTileset_7
+    21300016: FieldTileset_8
+    21300018: FieldTileset_9
+    21300020: FieldTileset_10
+    21300022: FieldTileset_11
+    21300024: FieldTileset_12
+    21300026: FieldTileset_13
+    21300028: FieldTileset_14
+    21300030: FieldTileset_15
+    21300032: FieldTileset_16
+    21300034: FieldTileset_17
+    21300036: FieldTileset_18
+    21300038: FieldTileset_19
+    21300040: FieldTileset_20
+    21300042: FieldTileset_21
+    21300044: FieldTileset_22
+    21300046: FieldTileset_23
+    21300048: FieldTileset_24
+    21300050: FieldTileset_25
+    21300052: FieldTileset_26
+    21300054: FieldTileset_27
+    21300056: FieldTileset_28
+    21300058: FieldTileset_29
+    21300060: FieldTileset_30
+    21300062: FieldTileset_31
+    21300064: FieldTileset_32
+    21300066: FieldTileset_33
+    21300068: FieldTileset_34
+    21300070: FieldTileset_35
+    21300072: FieldTileset_36
+    21300074: FieldTileset_37
+    21300076: FieldTileset_38
+    21300078: FieldTileset_39
+    21300080: FieldTileset_40
+    21300082: FieldTileset_41
+    21300084: FieldTileset_42
+    21300086: FieldTileset_43
+    21300088: FieldTileset_44
+    21300090: FieldTileset_45
+    21300092: FieldTileset_46
+    21300094: FieldTileset_47
+    21300096: FieldTileset_48
+    21300098: FieldTileset_49
+    21300100: FieldTileset_50
+    21300102: FieldTileset_51
+    21300104: FieldTileset_52
+    21300106: FieldTileset_53
+    21300108: FieldTileset_54
+    21300110: FieldTileset_55
+    21300112: FieldTileset_56
+    21300114: FieldTileset_57
+    21300116: FieldTileset_58
+    21300118: FieldTileset_59
+    21300120: FieldTileset_60
+    21300122: FieldTileset_61
+    21300124: FieldTileset_62
+    21300126: FieldTileset_63
+    21300128: FieldTileset_64
+    21300130: FieldTileset_65
+    21300132: FieldTileset_66
+    21300134: FieldTileset_67
+    21300136: FieldTileset_68
+    21300138: FieldTileset_69
+    21300140: FieldTileset_70
+    21300142: FieldTileset_71
+    21300144: FieldTileset_72
+    21300146: FieldTileset_73
+    21300148: FieldTileset_74
+    21300150: FieldTileset_75
+    21300152: FieldTileset_76
+    21300154: FieldTileset_77
+    21300156: FieldTileset_78
+    21300158: FieldTileset_79
+    21300160: FieldTileset_80
+    21300162: FieldTileset_81
+    21300164: FieldTileset_82
+    21300166: FieldTileset_83
+    21300168: FieldTileset_84
+    21300170: FieldTileset_85
+    21300172: FieldTileset_86
+    21300174: FieldTileset_87
+    21300176: FieldTileset_88
+    21300178: FieldTileset_89
+    21300180: FieldTileset_90
+    21300182: FieldTileset_91
+    21300184: FieldTileset_92
+    21300186: FieldTileset_93
+    21300188: FieldTileset_94
+    21300190: FieldTileset_95
+    21300192: FieldTileset_96
+    21300194: FieldTileset_97
+    21300196: FieldTileset_98
+    21300198: FieldTileset_99
+    21300200: FieldTileset_100
+    21300202: FieldTileset_101
+    21300204: FieldTileset_102
+    21300206: FieldTileset_103
+    21300208: FieldTileset_104
+    21300210: FieldTileset_105
+    21300212: FieldTileset_106
+    21300214: FieldTileset_107
+    21300216: FieldTileset_108
+    21300218: FieldTileset_109
+    21300220: FieldTileset_110
+    21300222: FieldTileset_111
+    21300224: FieldTileset_112
+    21300226: FieldTileset_113
+    21300228: FieldTileset_114
+    21300230: FieldTileset_115
+    21300232: FieldTileset_116
+    21300234: FieldTileset_117
+    21300236: FieldTileset_118
+    21300238: FieldTileset_119
+    21300240: FieldTileset_120
+    21300242: FieldTileset_121
+    21300244: FieldTileset_122
+    21300246: FieldTileset_123
+    21300248: FieldTileset_124
+    21300250: FieldTileset_125
+    21300252: FieldTileset_126
+    21300254: FieldTileset_127
+    21300256: FieldTileset_128
+    21300258: FieldTileset_129
+    21300260: FieldTileset_130
+    21300262: FieldTileset_131
+    21300264: FieldTileset_132
+    21300266: FieldTileset_133
+    21300268: FieldTileset_134
+    21300270: FieldTileset_135
+    21300272: FieldTileset_136
+    21300274: FieldTileset_137
+    21300276: FieldTileset_138
+    21300278: FieldTileset_139
+    21300280: FieldTileset_140
+    21300282: FieldTileset_141
+    21300284: FieldTileset_142
+    21300286: FieldTileset_143
+    21300288: FieldTileset_144
+    21300290: FieldTileset_145
+    21300292: FieldTileset_146
+    21300294: FieldTileset_147
+    21300296: FieldTileset_148
+    21300298: FieldTileset_149
+    21300300: FieldTileset_150
+    21300302: FieldTileset_151
+    21300304: FieldTileset_152
+    21300306: FieldTileset_153
+    21300308: FieldTileset_154
+    21300310: FieldTileset_155
+    21300312: FieldTileset_156
+    21300314: FieldTileset_157
+    21300316: FieldTileset_158
+    21300318: FieldTileset_159
+    21300320: FieldTileset_160
+    21300322: FieldTileset_161
+    21300324: FieldTileset_162
+    21300326: FieldTileset_163
+    21300328: FieldTileset_164
+    21300330: FieldTileset_165
+    21300332: FieldTileset_166
+    21300334: FieldTileset_167
+    21300336: FieldTileset_168
+    21300338: FieldTileset_169
+    21300340: FieldTileset_170
+    21300342: FieldTileset_171
+    21300344: FieldTileset_172
+    21300346: FieldTileset_173
+    21300348: FieldTileset_174
+    21300350: FieldTileset_175
+    21300352: FieldTileset_176
+    21300354: FieldTileset_177
+    21300356: FieldTileset_178
+    21300358: FieldTileset_179
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FieldTileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_11
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_12
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_13
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_14
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 366.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_16
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 333.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 333.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 333.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_19
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 333.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_20
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 334
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16.5}
+        - {x: -16, y: -16.5}
+        - {x: 16, y: -16.5}
+        - {x: 16, y: 16.5}
+    - name: FieldTileset_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 333.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_22
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 333.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_23
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 333.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_24
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 333.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_25
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 333.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_26
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 333.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_27
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 333.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_28
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 333.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_29
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 333.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_32
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_33
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_34
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_35
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_36
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_37
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_38
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_39
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_40
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_41
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_42
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_43
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_44
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 300.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_46
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_47
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_48
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_49
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_50
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_51
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_52
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_53
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_54
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_55
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_56
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_57
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_58
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_59
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 267.66666
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666656}
+        - {x: -16.5, y: -16.333344}
+        - {x: 16.5, y: -16.333344}
+        - {x: 16.5, y: 17.666656}
+    - name: FieldTileset_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_61
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_62
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_63
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_64
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_65
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_66
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_67
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_68
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_69
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_70
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_71
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_72
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_73
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_74
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 234.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_76
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_77
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_78
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_79
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_80
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_81
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_82
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_83
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_84
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_85
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_86
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_87
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_88
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_89
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 201.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_91
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_92
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_93
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_94
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_95
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_96
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_97
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_98
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_99
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_100
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_101
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_102
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_103
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_104
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 168.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_106
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_107
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_108
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_109
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_110
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_111
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_112
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_113
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_114
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_115
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_116
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_117
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_118
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_119
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 135.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_121
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_122
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_123
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_124
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_125
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_126
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_127
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_128
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_129
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_130
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_131
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_132
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_133
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_134
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 102.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_136
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_137
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_138
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_139
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_140
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_141
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_142
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_143
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_144
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_145
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_146
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_147
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_148
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_149
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 69.66667
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666672}
+        - {x: -16.5, y: -16.333328}
+        - {x: 16.5, y: -16.333328}
+        - {x: 16.5, y: 17.666672}
+    - name: FieldTileset_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_151
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_152
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_153
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_154
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_155
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_156
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_157
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_158
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_159
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_160
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_161
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_162
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_163
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_164
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 36.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_166
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_167
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_168
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_169
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_170
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_171
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_172
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_173
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_174
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_175
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_176
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_177
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_178
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    - name: FieldTileset_179
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 3.666668
+        width: 32.333332
+        height: 33.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.666668}
+        - {x: -16.5, y: -16.333332}
+        - {x: 16.5, y: -16.333332}
+        - {x: 16.5, y: 17.666668}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

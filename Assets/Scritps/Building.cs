@@ -8,6 +8,7 @@ public class Building : MonoBehaviour {
 	public float attack_damage;
 	public float attack_speed;
 	public float attack_distance;
+    public float resource_cost;
 	public float last_attack_time = 0;
 	public Mob target;
 
@@ -32,19 +33,18 @@ public class Building : MonoBehaviour {
 	}
 
 	void onDie() {
-		// Change stats and sprite
-		construction_speed = 0;
-		attack_damage = 0;
-		attack_speed = 0;
-		attack_distance = 0;
+        // Change stats and sprite
+        Debug.Log("onDie called");
+        GameObject.Destroy(gameObject);
 	}
 
 	public void takeDamage(float damage) {
 		// Called when an NPC attacks
-		//Debug.Log("Building took damage");
 		if (health > 0) {
 			health -= damage;
-		} else if (health <= 0) {
+		}
+        if (health <= 0) {
+            Debug.Log("health is zero");
 			onDie ();
 		}
 
@@ -52,7 +52,7 @@ public class Building : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		//Debug.Log(health);
+		Debug.Log(health);
 	}
 
 }

@@ -14,4 +14,9 @@ public class MobSound : SoundPlayer
 		PlayClip (1);
 	}
 	
+	public void PlaySpawnSound ()
+	{
+		PlayClip (2);
+	}
+	
 }

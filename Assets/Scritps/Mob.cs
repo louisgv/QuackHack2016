@@ -16,14 +16,19 @@ public class Mob : MonoBehaviour
 	
 	private MobSound m_mobSound;
 	
-	// Use this for initialization
-	void Start ()
+	void Awake ()
 	{
 		goal = GameObject.FindGameObjectWithTag ("Goal");
 		m_animator = GetComponent<Animator> ();
-		m_mobSound = GetComponent<MobSound> ();
+		m_mobSound = GetComponent<MobSound> ();	
 	}
-
+	
+	void OnBecameVisible ()
+	{
+		Debug.Log ("SPAWN BITCH!");
+		m_mobSound.PlaySpawnSound ();
+	}
+	
 	void attack ()
 	{
 		// Iterate through buildings, select those within attack distance, attack is attack speed has refreshed
@@ -52,14 +57,20 @@ public class Mob : MonoBehaviour
 		attack_speed = 0;
 		attack_distance = 0;
 	}
-
+	
+	void OnTriggerEnter2D (Collider2D other)
+	{
+		if (health <= 0) {
+			m_mobSound.PlayDeathSound ();
+		}
+	}
+	
 	public void takeDamage (float damage)
 	{
 		// Called when a Building attacks
 		if (health > 0) {
 			health -= damage;
 		} else if (health <= 0) {
-			m_mobSound.PlayDeathSound ();
 			m_animator.SetBool ("IsDead", true);
 			onDie ();
 		}
@@ -69,6 +80,7 @@ public class Mob : MonoBehaviour
 	{
 		transform.position = Vector3.MoveTowards (transform.position, goal.transform.position, move_speed * Time.deltaTime);
 	}
+	
 	// Update is called once per frame
 	void Update ()
 	{

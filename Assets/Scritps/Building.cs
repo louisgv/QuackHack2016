@@ -14,7 +14,7 @@ public class Building : MonoBehaviour
 	
 	public Bullet bullet_prefab;
 	
-	public BuildingSound m_buildingSound;
+	private BuildingSound m_buildingSound;
 	
 	// Use this for initialization
 	void Start ()

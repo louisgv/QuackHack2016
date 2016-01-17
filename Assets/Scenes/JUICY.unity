@@ -213,10 +213,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 109e9fab7e8efac4ab4e8042b5d00d36, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1076762164 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 1076762163}
 --- !u!114 &1176432398 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11463728, guid: 109e9fab7e8efac4ab4e8042b5d00d36,
@@ -252,7 +248,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2103244166}
+  - {fileID: 1756073825}
   m_Father: {fileID: 0}
   m_RootOrder: 4
 --- !u!1001 &1319918028
@@ -362,7 +358,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1076762164}
+  - {fileID: 1176432399}
   m_Father: {fileID: 0}
   m_RootOrder: 5
 --- !u!1001 &1642776443
@@ -440,6 +436,10 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!4 &1756073825 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 495126, guid: 33556cc2eba55f147a4b0185136abea4, type: 2}
+  m_PrefabInternal: {fileID: 2103244165}
 --- !u!1001 &1796919981
 Prefab:
   m_ObjectHideFlags: 0
@@ -615,7 +615,3 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 33556cc2eba55f147a4b0185136abea4, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &2103244166 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 2103244165}

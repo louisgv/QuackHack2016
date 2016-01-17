@@ -4,7 +4,7 @@ using System.Collections;
 
 public class MoneyManager : MonoBehaviour
 {
-	public static int resources = 240;
+	public static int resources = 100;
 	
 	private Text remaining_money_display;
 

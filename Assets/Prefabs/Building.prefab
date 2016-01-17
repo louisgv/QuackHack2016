@@ -272,11 +272,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74e631b5e6b9eed45a3df23170e407c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 21
+  health: 20
   construction_speed: 0
   attack_damage: 2
   attack_speed: 2
-  attack_distance: 10
+  attack_distance: 4
   resource_cost: 0
   last_attack_time: 0
   construction: 0
@@ -301,8 +301,8 @@ MonoBehaviour:
   rightEye: {fileID: 118336}
   leftPupil: {fileID: 129846}
   rightPupil: {fileID: 141382}
-  eyeRadius: .200000003
-  pupilRadius: .100000001
+  eyeRadius: .100000001
+  pupilRadius: .0500000007
   speed: 2
   state: 0
 --- !u!212 &21233170
@@ -451,7 +451,23 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: attack_distance
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: eyeRadius
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: pupilRadius
+      value: .0500000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: health
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 148934}

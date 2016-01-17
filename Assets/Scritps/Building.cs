@@ -59,7 +59,6 @@ public class Building : MonoBehaviour
 					attackable_target.takeDamage (attack_damage);
 					
 					last_attack_time = Time.time;
-					
 				}
 			}
 		} 

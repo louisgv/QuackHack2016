@@ -73,7 +73,14 @@ public class Mob : MonoBehaviour
 	{
 		if (health <= 0) {
 			m_mobSound.PlayDeathSound ();
+			StartCoroutine (GroanThenDie (1.0f));
 		}
+	}
+	
+	IEnumerator GroanThenDie (float seconds)
+	{
+		yield return new WaitForSeconds (seconds);
+		Destroy (gameObject);
 	}
 	
 	public void takeDamage (float damage)

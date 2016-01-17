@@ -7,6 +7,8 @@ public class Bullet : MonoBehaviour
 	private GameObject
 		target;
 	
+	private ParticleSystem m_particleSystem;
+	
 	public float speed = 1.0f;
 	
 	public float lerpTime = 1.0f;
@@ -34,11 +36,25 @@ public class Bullet : MonoBehaviour
 	
 	public EaseStyle easeStyle = EaseStyle.EASE_IN;
 	
+	void Start ()
+	{
+		m_particleSystem = GetComponent<ParticleSystem> ();
+	}
+	
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.CompareTag ("Mob")) {
-			Destroy (gameObject);
+			Debug.Log ("YO COLLISION!");
+			m_particleSystem.enableEmission = true;
+			m_particleSystem.Play ();
+			StartCoroutine (PopThenDestroy (1.0f));
 		}
+	}
+	
+	IEnumerator PopThenDestroy (float seconds)
+	{
+		yield return new WaitForSeconds (seconds);
+		Destroy (gameObject);
 	}
 	
 	private float CalculatedTimer ()
@@ -78,6 +94,8 @@ public class Bullet : MonoBehaviour
 					target.transform.position, 
 					CalculatedTimer () * speed);
 			}
+		} else {
+			Destroy (gameObject);
 		}
 	}
 	

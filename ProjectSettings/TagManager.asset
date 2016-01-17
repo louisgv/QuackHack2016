@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Building
   - Mob
+  - Goal
   layers:
   - Default
   - TransparentFX

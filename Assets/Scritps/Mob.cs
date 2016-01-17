@@ -12,11 +12,13 @@ public class Mob : MonoBehaviour
 	public Building target;
 	public GameObject goal;
 
+	private Animator m_animator;
 
 	// Use this for initialization
 	void Start ()
 	{
-		
+		goal = GameObject.FindGameObjectWithTag ("Goal");
+		m_animator = GetComponent<Animator> ();
 	}
 
 	void attack ()
@@ -26,7 +28,8 @@ public class Mob : MonoBehaviour
 		Building[] attackableTargets = FindObjectsOfType (typeof(Building)) as Building[];
 		foreach (Building attackable_target in attackableTargets) {
 			//Debug.Log (attackable_target);
-			if (Vector3.Distance (target.transform.position, transform.position) < attack_distance) {
+			if (Vector3.Distance (attackable_target.transform.position, transform.position) < attack_distance) {
+				target = attackable_target;
 				if (last_attack_time + attack_speed < Time.time) {
 					attackable_target.takeDamage (attack_damage);
 					last_attack_time = Time.time;
@@ -50,6 +53,7 @@ public class Mob : MonoBehaviour
 		if (health > 0) {
 			health -= damage;
 		} else if (health <= 0) {
+			m_animator.SetBool ("IsDead", true);
 			onDie ();
 		}
 	}

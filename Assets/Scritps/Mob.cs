@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Mob : MonoBehaviour {
+public class Mob : MonoBehaviour
+{
 	public float health;
 	public float move_speed;
 	public float attack_speed;
@@ -13,18 +14,20 @@ public class Mob : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		
 	}
 
-	void attack() {
+	void attack ()
+	{
 		// Iterate through buildings, select those within attack distance, attack is attack speed has refreshed
 		// Detect if target is within range
-		Building[] attackableTargets = FindObjectsOfType (typeof(Building)) as Building[] ;
+		Building[] attackableTargets = FindObjectsOfType (typeof(Building)) as Building[];
 		foreach (Building attackable_target in attackableTargets) {
-			Debug.Log (attackable_target);
+			//		Debug.Log (attackable_target);
 			if (Vector3.Distance (target.transform.position, transform.position) < attack_distance) {
-				if (last_attack_time+attack_speed < Time.time) {
+				if (last_attack_time + attack_speed < Time.time) {
 					attackable_target.takeDamage (attack_damage);
 					last_attack_time = Time.time;
 				}
@@ -32,7 +35,8 @@ public class Mob : MonoBehaviour {
 		} 
 	}
 
-	void onDie() {
+	void onDie ()
+	{
 		// Change stats and sprite
 		move_speed = 0;
 		attack_damage = 0;
@@ -40,7 +44,8 @@ public class Mob : MonoBehaviour {
 		attack_distance = 0;
 	}
 
-	public void takeDamage(float damage) {
+	public void takeDamage (float damage)
+	{
 		// Called when a Building attacks
 		if (health > 0) {
 			health -= damage;
@@ -49,11 +54,13 @@ public class Mob : MonoBehaviour {
 		}
 	}
 
-	void move() {
+	void move ()
+	{
 		transform.position = Vector3.MoveTowards (transform.position, goal.transform.position, move_speed * Time.deltaTime);
 	}
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 		move ();
 		attack ();
 	}

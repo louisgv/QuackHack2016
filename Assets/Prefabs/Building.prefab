@@ -10,7 +10,6 @@ GameObject:
   - 4: {fileID: 425216}
   - 114: {fileID: 11463728}
   - 212: {fileID: 21257768}
-  - 95: {fileID: 9519598}
   m_Layer: 0
   m_Name: Building
   m_TagString: Building
@@ -30,23 +29,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!95 &9519598
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 148934}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11463728
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -60,11 +42,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 21
   construction_speed: 0
-  attack_damage: 0
-  attack_speed: 0
-  attack_distance: 0
+  attack_damage: 1
+  attack_speed: 1
+  attack_distance: 2
   last_attack_time: 0
   target: {fileID: 0}
+  bullet_prefab: {fileID: 11418696, guid: de2e15079e0efe34a9757c1bb495593a, type: 2}
 --- !u!212 &21257768
 SpriteRenderer:
   m_ObjectHideFlags: 1

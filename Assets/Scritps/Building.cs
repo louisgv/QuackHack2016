@@ -39,7 +39,7 @@ public class Building : MonoBehaviour
 				if (last_attack_time + attack_speed < Time.time) {
 					m_buildingSound.PlayAttackSound ();
 					// Instantiate a bullet, then assign the target to it.
-					Bullet bullet_instance = Instantiate (bullet_prefab) as Bullet;
+					Bullet bullet_instance = Instantiate (bullet_prefab, transform.position, transform.rotation) as Bullet;
 					
 					bullet_instance.SetTarget (target.gameObject);
 					
@@ -83,7 +83,7 @@ public class Building : MonoBehaviour
 	{
 		construction_time += 0.01f;
 		
-		//		attack ();
+		attack ();
 		
 		while (construction_time < construction_speed) {
 			construction = false;

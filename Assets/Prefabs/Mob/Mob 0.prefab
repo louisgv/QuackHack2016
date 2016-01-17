@@ -42,10 +42,9 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 177970}
-  m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_GravityScale: 1
   m_IsKinematic: 1
   m_Interpolate: 0
@@ -59,13 +58,12 @@ BoxCollider2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 177970}
   m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 1.06}
+  m_Size: {x: .639999986, y: 1.05999994}
 --- !u!82 &8257556
 AudioSource:
   m_ObjectHideFlags: 1
@@ -106,7 +104,6 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -117,7 +114,6 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -128,7 +124,6 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -139,7 +134,6 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
 --- !u!95 &9521320
 Animator:
   serializedVersion: 3
@@ -163,7 +157,7 @@ TrailRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 177970}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_Materials:
@@ -178,7 +172,7 @@ TrailRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -202,7 +196,7 @@ TrailRenderer:
     m_Color[4]:
       serializedVersion: 2
       rgba: 460735
-  m_MinVertexDistance: 0.1
+  m_MinVertexDistance: .100000001
   m_Autodestruct: 1
 --- !u!114 &11453544
 MonoBehaviour:
@@ -216,15 +210,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 9
-  move_speed: 1.32
+  move_speed: 1.32000005
   attack_speed: 1
   attack_damage: 2
-  attack_distance: 1.4
+  attack_distance: 1.39999998
   last_attack_time: 0
   target: {fileID: 0}
   goal: {fileID: 142852, guid: 0ebaf8d84e114f548a4f3fb066c69a78, type: 2}
   tile_grid: {fileID: 0}
+  reward: 0
   center_of_tile_tolerance: 0
+  overCondition: 10
 --- !u!114 &11461792
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -261,15 +257,13 @@ SpriteRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 5dcff49d63f25964c804d88bc3ffd7e3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -311,6 +305,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

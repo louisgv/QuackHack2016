@@ -61,12 +61,7 @@ public class Mob : MonoBehaviour
 
 	void onDie ()
 	{
-		// Change stats and sprite
-		move_speed = 0;
-		attack_damage = 0;
-		attack_speed = 0;
-		attack_distance = 0;
-		GameObject.Find ("MoneyManager").GetComponent<MoneyManager>().resources += reward;
+		MoneyManager.resources += reward;
 	}
 	
 	void OnTriggerEnter2D (Collider2D other)
@@ -94,11 +89,25 @@ public class Mob : MonoBehaviour
 		}
 	}
 		
+	public int overCondition = 10;
+	
+	private static int overProgress = 0;
+	
 	void move ()
 	{
 		Tile current_tile = tile_grid.getContainingTile (transform.position);
 		if (current_tile == null) {
+			
+			// game over!
+			
+			++overProgress;
+			
+			if (overProgress > overCondition) {
+				GameController.gameState = GameController.GameState.GAMEOVER;
+			}
+			
 			Destroy (gameObject);
+			
 			return;
 		}
 		

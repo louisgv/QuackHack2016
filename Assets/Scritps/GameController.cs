@@ -1,18 +1,33 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameController : MonoBehaviour {
-
-	public GameObject[] Buildings;
-
-
-	// Use this for initialization
-	void Start () {
-	
+public class GameController : MonoBehaviour
+{
+	public enum GameState
+	{
+		GOING,
+		GAMEOVER
 	}
 	
-	// Update is called once per frame
-	void Update () {
+	public static GameState gameState = GameState.GOING;
 	
+	public GameObject GameOverScene;
+	
+	public GameObject Canvas;
+	
+	private void DoGameOverThings ()
+	{
+		GameOverScene.SetActive (true);
+		Canvas.SetActive (false);
+		Time.timeScale = 0;
+	}
+	
+	public void Update ()
+	{
+		switch (gameState) {
+		case GameState.GAMEOVER: 
+			DoGameOverThings ();
+			break;
+		}
 	}
 }

@@ -41,7 +41,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mobPrefab: {fileID: 11453544, guid: 8c3d8d01acc9d2442a09c593b32b700e, type: 2}
   health: 2
+  speed: 5
   delayTime: 5
+  reward: 10
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -65,14 +65,22 @@ public class MouseBehavior : MonoBehaviour
 
         //create the actor
         T spawned_actor = root.InstantiateChild<T>(prefab);
+
+
         initialize_prefab(spawned_actor);
+
         click_behavior = doNothing;
         spawned_actor.transform.position = tile_under_mouse.transform.position;
 
         //DEBUG - if you're having problems, it might be because of the GetComponent in this line
-        spawned_actor.transform.localScale = tile_grid.getScaleToFillTile(spawned_actor.gameObject.GetComponent<SpriteRenderer>()) * 0.8f;
+
+		Debug.Log("SHOULD BE SECOND");
+
+        spawned_actor.transform.localScale = tile_grid.getScaleToFillTile(spawned_actor.gameObject.GetComponent<SpriteRenderer>()) * 0.8f ;
 
         tile_under_mouse.occupant = spawned_actor.gameObject;
+
+		spawned_actor.transform.SetParent (transform);
 
         spawned_actor.gameObject.SetActive (true);
 	}

@@ -13,6 +13,7 @@ public class Mob : MonoBehaviour
 	public GameObject goal; //deprectaed?
 	private Vector3 goal_position;
 	public TileGrid tile_grid;
+	public int reward; // how much money is generated upon destruction of mobile
 
 	[SerializeField]
 	private float
@@ -65,6 +66,7 @@ public class Mob : MonoBehaviour
 		attack_damage = 0;
 		attack_speed = 0;
 		attack_distance = 0;
+		GameObject.Find ("MoneyManager").GetComponent<MoneyManager>().resources += reward;
 	}
 	
 	void OnTriggerEnter2D (Collider2D other)
@@ -79,7 +81,7 @@ public class Mob : MonoBehaviour
 		// Called when a Building attacks
 		if (health > 0) {
 			health -= damage;
-		} else if (health <= 0) {
+		} else if (health <= 0 && move_speed > 0) {
 			m_animator.SetBool ("IsDead", true);
 			onDie ();
 		}

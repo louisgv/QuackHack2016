@@ -13,6 +13,8 @@ public class MobSystem : MonoBehaviour
 	float timer;
 	
 	public float delayTime = 5.0f;
+
+	public int reward = 10;
 	
 	// Use this for initialization
 	void Start ()
@@ -29,6 +31,8 @@ public class MobSystem : MonoBehaviour
 		mobInstance.health = health;
 		
 		mobInstance.move_speed = speed;
+
+		mobInstance.reward = reward;
 	}
 	
 	// Update is called once per frame

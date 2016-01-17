@@ -77,7 +77,7 @@ public class MouseBehavior : MonoBehaviour
 
 		//DEBUG - if you're having problems, it might be because of the GetComponent in this line
 
-		spawned_actor.transform.localScale = tile_grid.getScaleToFillTile (spawned_actor.gameObject.GetComponent<SpriteRenderer> ()) * 0.8f;
+		spawned_actor.transform.localScale = tile_grid.getScaleToFillTile (spawned_actor.gameObject.GetComponent<SpriteRenderer> ()) * 1.8f;
 		
 		Debug.Log (spawned_actor.transform.localScale.ToString ());
 		
